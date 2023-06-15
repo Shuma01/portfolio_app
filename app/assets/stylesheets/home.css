@@ -1,0 +1,82 @@
+body,html{
+  background-color: #FAD9BD;
+  width: 100%;
+}
+
+/*共通ヘッダー*/
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  font-size: 24px;
+}
+
+header h1 {
+  padding: 10px;
+}
+header ul{
+  display: flex;
+}
+
+header a{
+  transition: 0.2s;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+header a:hover{
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.4;
+}
+.header-bg{
+  background: #ED6103;
+}
+/*ここまでヘッダー*/
+
+
+/*topページ*/
+.top-main {
+  padding: 200px 0 100px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  background-image: url("/mv1.jpg"),linear-gradient(#00ccc2,#ce5200);
+  background-blend-mode:soft-light;
+}
+.top-message{
+  margin: 0 90px;
+}
+.top-message h2{
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.top-message p{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+/*ここまでtopページ*/
+
+.wrapper{
+  width: 80%;
+  min-height: 80vh;
+  margin: 50px auto ;
+  background: #fff;
+  padding-bottom: 30px;
+}

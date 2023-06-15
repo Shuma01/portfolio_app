@@ -1,0 +1,102 @@
+/* post/index ここから */
+.post-ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+  justify-content: start;
+  }
+  .post-li{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(25% - 10px);
+  height: 30px;
+  margin: 5px;
+  border: 1px solid #ED6103;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #ED6103;
+  font-size: 16px;
+  transition: 0.2s;
+  }
+  
+  .post-li:hover {
+    border: none;
+    background-color: #ED6103;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .post-item{
+    font-size: 16px;
+    padding: 15px;
+    border-top: solid 1px #ED6103;/*線*/
+    border-bottom: solid 1px #ED6103;/*線*/
+    transition: 0.2s;
+    margin-bottom: 10px;
+  }
+  .post-item:hover{
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    opacity: 0.5;
+  }
+  .post-title{
+    font-weight: bold;
+    color: #039bed;/*文字色*/
+  }
+  .post-sub{
+    color: #6a6a6a;/*文字色*/
+  }
+  
+  /* post/index ここまで */
+  
+  /* post/:id ここから */
+  .post-show{
+    padding: 20px;
+  }
+  .post-show-title{
+    display: flex;
+    align-items: center;
+  }
+
+  .post-show-content{
+    margin: 20px 0;
+    }
+  .post-user{
+    display: flex;
+  }
+  
+  .post-user-data{
+    margin-left: 20px;
+  }
+
+  .post-user-name{
+    margin-bottom: 5px;
+  }
+
+  .post-date{
+    color: #666;/*文字色*/
+  }
+  .post-user-img{
+    background-image: url("/mv1.jpg"); /* 表示する画像 */
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    background-position: center center; /* 横長画像の左上を基準に表示 */
+  }
+  
+  .post-question,.post-answer{
+    border-top: solid 1px #ED6103;
+    border-bottom: solid 1px #ED6103;
+    padding: 20px 0;
+    margin: 20px 0;
+    }
+  .post-h2{
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  /* post/:id ここまで */
+
+  

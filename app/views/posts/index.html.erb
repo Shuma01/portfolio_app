@@ -1,0 +1,27 @@
+<div class="wrapper">
+  <div class="post-main">
+  <ul class="post-ul">
+    <li class="post-li">いいね数</li>
+    <li class="post-li">回答数</li>
+    <li class="post-li">新しい投稿</li>
+    <li class="post-li">古い投稿</li>
+    <li class="post-li">全て表示</li>
+    <li class="post-li">先生から生徒</li>
+    <li class="post-li">生徒から先生</li>
+    <li class="post-li">先生から先生</li>
+  </ul>
+    <% @posts.each do |post| %>
+      <div class="post-item">
+      <p class="post-sub">生徒→先生</p>
+        <p class="post-title">
+          <%= post.content %>
+        </p>
+        <p class="post-sub">
+        気になる
+        <%= post.created_at.strftime('%Y/%m/%d') %>
+        投稿数
+        </p>
+      </div>
+    <% end %>
+  </div>
+</div>
