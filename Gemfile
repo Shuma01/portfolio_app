@@ -70,3 +70,6 @@ group :test do
   gem "webdrivers"
 end
 
+source "https://rubygems.org"
+ 
+gem "cowsay", "~> 0.3.0"
